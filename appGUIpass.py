@@ -29,7 +29,7 @@ def generate_pass():
 
 def help_about():
     tkinter.messagebox.showinfo("Help about Black Eye","Black was developed by marvecodes in 2024 for the purpose of good an secure password at the age of fourteen")
-len_password = Label(root,text="Write the len of password you want")
+len_password = Label(root,text="Write the length of password you want")
 len_password.config(font=("Futura",14,'italic'))
 len_password.place(x=0,y=0)
 len_password.config(background="skyblue")
